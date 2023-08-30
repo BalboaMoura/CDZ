@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavaleiros do Zodíacos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Signika:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.png" alt="Logo cavaleiros dod zodíacos">
+    </header> <!-- Tag especifica para cabeçalho  -->
+    <!-- Class são atributos dos elementos -->
+    <main class="selecao-de-personagens"> <!-- Tag tag principal -->
+        <section class="personagens"> <!-- Tag secundaria -->
+            <h1 class="titulo">Selecione um cavaleiro</h1> <!-- Tag usada no titulo principal  -->
+            <ul class="lista-de-personagens"> <!-- Tag usada em lista... Dentro da ul só é usado a Tag li -->
+                <li class="personagem selecionado" id="mu" data-name="Mu" data-description="Mu é o Cavaleiro de Ouro de Áries. Hábil na
+                restauração de Armaduras. Como desde cedo desconfiava do Grande Mestre, deu as costas ao Santuário.">
+                    <!-- Tag usado para representar um item que faz parte de uma lista -->
+                    <img src="./src/imagens/mu.jpg" alt="Personagem Mu"> <!-- tag para renderizar uma imagem na tela -->
+                </li>
+                <li class="personagem" id="aldebaran" data-name="Aldebaran" data-description="Aldebaran é o Cavaleiro de Ouro de Touro. Dotado de uma resistência fora do comum,
+                também tem uma grande força física e uma agilidade impressionante para alguém de seu porte.">
+                    <!-- id é um identificador... dentro da pagina só pode existir um id -->
+                    <img src="./src/imagens/aldebaran.jpg" alt="Personagem Aldebaran">
+                </li>
+                <li class="personagem" id="saga" data-name="Saga" data-description="Saga de Gêmeos é um poderoso cavaleiro de ouro. O cavaleiro de gêmeos possuía um irmão gêmeo chamado Kanon,
+                que propôs que eles matassem Athena e comandassem o mundo.">
+                    <img src="./src/imagens/saga.jpg" alt="Personagem Saga">
+                </li>
+                <li class="personagem" id="mdm" data-name="Máscara da Morte" data-description="Máscara da Morte de Câncer é o Cavaleiro de Ouro de Câncer e protetor da quarta Casa do Zodíaco. Adora lutas, matança e acredita que, para um objetivo
+                maior, alguns sacrifícios são inevitáveis.">
+                    <img src="./src/imagens/mdm.jpg" alt="Personagem Mdm">
+                </li>
+                <li class="personagem" id="aiolia" data-name="Aiolia" data-description="Aiolia de Leão é um cavaleiro de ouro que renasce em Asgard após sua morte no Muro da
+                Lamentações. Ele é o protagonista de Soul of Gold.">
+                    <img src="./src/imagens/aiolia.jpg" alt="Personagem Aiolia">
+                </li>
+                <li class="personagem" id="shaka" data-name="Shaka" data-description="Shaka de Virgem está entre os Cavaleiros de Ouro mais populares. Conhecido como o Homem Mais Próximo de Deus, ele possui o maior cosmo dentre os 88 Cavaleiros
+                de Atena.">
+                    <img src="./src/imagens/shaka.jpg" alt="Personagem Shaka">
+                </li>
+                <li class="personagem" id="dohko" data-name="Dohko" data-description="Dohko de Libra é um lendário e renomado Cavaleiro de Ouro. Conhecido por ter lutado e sobrevivido a Guerra Santa contra Hades ao lado de seu parceiro de 
+                batalhas, Shion de Áries.">
+                    <img src="./src/imagens/dohko.jpg" alt="Personagem Dohko">
+                </li>
+                <li class="personagem" id="milo" data-name="Milo" data-description="Milo de Escorpião é um dos personagens principais da série Os Cavaleiros do Zodíaco. É muito poderoso, já que foi capaz de devastar a Ilha de Andrômeda
+                em poucos segundos.">
+                    <img src="./src/imagens/milo.jpg" alt="Personagem Milo">
+                </li>
+                <li class="personagem" id="aiolos" data-name="Aiolos" data-description="Aiolos de Sagitário é o Cavaleiro de Ouro de Sagitário. Antes de morrer, há 13 anos, entregou Atena
+                ainda bebê e sua Armadura de Ouro aos cuidados de
+                Mitsumasa Kido, que estava viajando pela Grécia.">
+                    <img src="./src/imagens/aiolos.jpg" alt="Personagem Aiolos">
+                </li>
+                <li class="personagem" id="shura" data-name="Shura" data-description="Shura de Capricórnio é o Cavaleiro de Ouro que protege a décima casa do Santuário. Shura se considera o cavaleiro mais fiel a Athena. É o cavaleiro de ouro com o melhor
+                combate corporal. Seus braços e pernas são tão afiados como navalha.">
+                    <img src="./src/imagens/shura.jpg" alt="Personagem Shura">
+                </li>
+                <li class="personagem" id="camus" data-name="Camus" data-description="Camus de Aquário é o Cavaleiro de Ouro que protege a Casa de Aquário no Santuário. Treinou o pequeno Hyoga e Isaak durante seis anos nas geladas terras do
+                leste da Sibéria. foi obrigado a lutar contra Hyoga no Santuário.">
+                    <img src="./src/imagens/camus.jpg" alt="Personagem Camus">
+                </li>
+                <li class="personagem" id="afrodite" data-name="Afrodite" data-description="Afrodite de Peixes é o Cavaleiro de Ouro que protege a última Casa do Santuário. Sua ideia é de que só um poder supremo pode manter a paz e a ordem no mundo,
+                mesmo que esse poder provenha do mal, mas só faz isso para proteger a paz da terra.">
+                    <img src="./src/imagens/afrodite.jpg" alt="Personagem Afrodite">
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/mu.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem"><!-- Tag que não tem significado...Tag boa para agrupar -->
+                <h2 class="nome-personagem" id="nome-personagem">mu</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Mu é o Cavaleiro de Ouro de Áries. Hábil na
+                    restauração de Armaduras, é ele quem conserta as Armaduras de Bronze antes da
+                    Batalha das Doze Casas do Zodíaco. Como desde cedo desconfiava do Grande Mestre, deu as costas ao
+                    Santuário.</p>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>

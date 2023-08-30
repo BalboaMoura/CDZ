@@ -1,0 +1,11 @@
+/* É UTILIZADO PARA LIMPAR OS ESTILOS PADRÃO DO NAVEGADO */
+
+*{
+    margin: 0; /* Espaçamento externo do elemento */
+    padding: 0; /* Espaçamento interno do elemento */
+    box-sizing: border-box; /* Trabalha melhor a largura e margem */
+}
+
+ul{
+    list-style: none; /* Remover ponto antes da imagem */
+}
